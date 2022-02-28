@@ -1,0 +1,180 @@
+@import url(variables.css);
+.main-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+}
+a{color: black;}
+
+p{
+    font-family: spotifylight;
+    font-size: 16px;
+}
+
+.green-container{
+    width: 100%;
+    height: 524.03px;
+    background-color: #19e68c;
+    
+}
+.pc{
+    height: 80.03px;
+    width: 136px;
+}
+.pc-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.check-circle{
+  position: absolute;
+  
+
+}
+.circle{
+    height: 34px;
+    width: 34px;
+    animation: opacity 1.6s ;
+  
+}
+.check{
+    position: absolute;
+    margin: 12px 12px;
+    height: 8.95px;
+    width: 10.88px;
+    animation: su 1.5s;
+    
+    
+}
+@keyframes opacity{
+    0%{
+        opacity: 0%;
+    }
+    20%{
+        opacity: 0%;
+    }
+    40%{
+        opacity: 100%;
+    }
+}
+@keyframes su{
+    0%{
+        opacity: 0%;
+        
+    }
+    70%{
+        opacity: 0%;
+        transform:translateY(100%);
+    }
+}
+
+
+
+
+.btn {
+    background-color: white;
+    padding: 20px;
+    width: 135px;
+    display: flex;
+    border-radius: 40px;
+    justify-content: center;
+    font-family: spotifyblack;
+    font-size: 14px;
+
+
+}
+
+
+.btn:hover{
+    transform: scale(105%);
+  
+}
+
+.btn:active{
+    box-shadow: 0 0 0 4px white,
+    inset 0 0 0 3px #19e68c;  
+    
+}
+
+ h1{
+    font-size: 48px;
+    font-family: spotifybold;
+}
+h2{
+    font-size: 32px;
+    font-family: spotifybold;
+}
+h3{
+    font-size: 16px;
+    color: black
+}
+
+.white-container{
+height: 308px;
+
+} 
+.row{
+    flex-direction: row;
+}
+
+.grey-container{
+background-color: #181818;
+height: 449.46px;
+}
+
+.grey-container h2, h5  {
+    color: white;
+    font-family: spotifybold;
+    
+}
+.grey-container a h5 {
+    color: rgb(29, 185, 84);
+    font-family: spotifythin;
+    text-decoration: underline;   
+}
+ a>h5:hover{
+    color: rgb(106, 209, 142);
+}
+
+h5::after{
+    content: '';
+    display: inline-block;
+    background-color: rgb(29, 185, 84);
+    border-radius: 2rem;
+    margin-left: 20px;
+    margin-bottom: 2px;
+    height: 6px;
+    width: 6px;
+}
+.no-ball::after{
+    display: none;
+}
+
+
+@media only screen and (max-width: 1120px) {
+  
+h5::after{
+    display: none;
+}
+.grey-container{
+    height: 742.73px;
+    text-align: center;
+    padding: 20px;
+   
+}
+.cons-list{
+    display: flex;
+    flex-direction: column;
+}
+.white-container{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 15px;
+    
+}
+
+}

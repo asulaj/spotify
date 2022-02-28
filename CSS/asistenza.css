@@ -1,0 +1,307 @@
+@import url(variables.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* variabili fisse */
+.fl {
+    display: flex;
+}
+
+.fl-co {
+    display: flex;
+    flex-direction: column;
+}
+
+/* variabili fisse */
+
+nav {
+    height: 5rem;
+    width: 100vw;
+    background-color: black;
+    padding: 0 15px;
+}
+
+.cont-head {
+    height: 5rem;
+    max-width: 1170px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cont-logo {
+    height: 5rem;
+    width: var(--logow);
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+.svelte-1gcdbl9 {
+    fill: white;
+    height: var(--logoh);
+    width: var(--logow);
+}
+
+.item,
+.cont-elenco p {
+    padding: 28px 17px;
+    color: white;
+    cursor: pointer;
+}
+
+.item a {
+    color: white;
+    font-family: spotifybold;
+    font-size: 16px;
+}
+
+.item:hover a {
+    color: var(--green);
+}
+
+.container-search {
+    background-image: url(https://support.scdn.co/web/_next/static/assets/65b4516/search-desktop.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 467px;
+    text-align: center;
+}
+
+.title-search {
+    padding-top: 70px;
+    padding-bottom: 20px;
+    font-family: spotifybold;
+    font-size: 3.5em;
+    color: #fff;
+}
+
+::-webkit-input-placeholder {
+    font-family: spotifylight;
+    color: rgb(29, 28, 28);
+    padding-left: 60px;
+    font-size: 1em;
+}
+
+.search-box-wrap {
+    width: 40vw;
+    margin: 20px auto;
+}
+
+.search-box-wrap .box-search {
+    position: relative;
+    width: 40vw;
+    height: 50px;
+}
+
+.search-box-wrap .box-search .search-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    border: none;
+}
+
+.search-box-wrap .box-search .btn-btn {
+    position: absolute;
+    top: 0;
+
+    width: 60px;
+    height: 100%;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.search-box-wrap .box-search .btn-btn img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+
+}
+
+.assistenza {
+    width: 50vw;
+    margin: 70px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.option {
+    font-family: spotifythin;
+    color: rgb(238, 237, 237);
+    font-size: 0.9em;
+    padding: 10px;
+}
+
+.assistenza a {
+    font-family: spotifybold;
+    font-size: 1em;
+    color: #fff;
+}
+
+.assistenza a:hover {
+    text-decoration: underline;
+}
+
+.solutioni-top {
+    display: none;
+}
+
+.assistenza-principale {
+    background-color: rgb(246, 243, 238);
+}
+
+.assistenza-width {
+    width: 50vw;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+
+
+.assistenza-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    line-height: 40px;
+    padding-bottom: 30px;
+}
+
+.assistenza-2 {
+    font-family: spotifybold;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 1.3em;
+
+}
+
+.assistenza-principale a {
+    font-family: spotifybold;
+    color: green;
+}
+
+.assistenza-principale a:hover {
+    text-decoration: underline;
+}
+
+.comunity-p {
+    width: 100vw;
+    height: auto;
+    background-color: #fff;
+}
+
+.comunity {
+    width: 25vw;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.comunity h1 {
+    font-family: spotifybold;
+    font-size: 2.5em;
+    padding: 30px;
+}
+
+.comunity p {
+    font-family: spotifybold;
+    padding-bottom: 20px;
+
+}
+
+#btn-visita {
+    width: 156px;
+    height: 48px;
+    border-radius: 24px;
+    background-color: var(--green);
+    border: none;
+    font-family: spotifybold;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+
+
+
+
+footer {
+    background-color: black;
+    padding: 80px 0 50px;
+}
+
+.sopra {
+    padding: 0 50px;
+}
+
+.icon {
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+    background-color: #222326;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-right: 15px;
+}
+
+.icon img {
+    width: 24px;
+    height: 24px;
+    background-color: white;
+
+}
+
+.icon:hover img {
+    background-color: var(--green);
+}
+
+.cont-logo,
+.elencof {
+    padding: 0 15px;
+}
+
+.destra-s {
+    margin: 0 15px 0 183px;
+}
+
+.elencof a {
+    padding: 3px 0 15px;
+    color: white;
+    font-family: spotifylight;
+    font-weight: 800;
+    font-size: 14px;
+}
+
+.elencof h3 {
+    color: #919496;
+    font-family: spotifylight;
+    font-size: 12px;
+    margin: 20px 0;
+}
+
+.elencof {
+    width: 195px;
+    height: 346px;
+}
+
+.elencof a:hover {
+    color: var(--green);
+}
+
+.fhead {
+    width: 1170px;
+    margin: 0 auto;
+}

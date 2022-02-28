@@ -1,0 +1,196 @@
+@import url(../CSS/variables.css);
+
+.logo-spotify{
+    height: 3.8rem;
+    width: 40rem;
+}
+.logo{
+    padding: 1rem;
+}
+.container{
+    max-width: 450px;
+    margin: 0 auto;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.header hr{
+    width: 100%;
+}
+.titolo{
+    display: block;
+    font-size: 1.2em;
+    font-weight: bold;
+    font-family: spotifybold;
+    padding-top: 2.5rem;
+}
+.margin{
+    margin: 1rem 0 ;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hr-oppure{
+ display: flex; 
+ align-items: center;
+ justify-content: center;
+ width: 100%;
+ margin: 2rem 0;
+ font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 2px;
+    margin: 0px auto 1em;
+    color: rgb(127, 127, 127);
+    position: relative;
+    text-align: center;
+
+}
+.oppure p{
+    padding: 0px 15px;
+}
+.hr-oppure hr{
+    width: 12rem;
+}
+
+.spotifybold{
+    font-weight: 550;
+}
+.profilo input{
+    padding: 16px 12px;
+    width: 100%;
+    border: 1px solid grey;
+    border-radius: 4px;
+  
+}
+.marginput{
+    margin: 0.8rem 0;
+}
+.profilo p {
+    font-size: 13px;
+    font-family: spotifylight;
+    margin: 0.8em 0;
+    cursor: pointer;
+}
+.inline{
+    display: block;
+}
+.birthday{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1rem;
+    
+}
+.padloghini{
+    padding-right:7px;
+}
+.padse{
+    padding: 0px 10px;
+}
+.testo1 label{
+    font-size: 0.9em;
+    padding-left: 5px;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer a{
+    color: rgb(29, 185, 84);
+    font-weight: bold;
+    text-decoration: underline;
+}
+.iscriviti{
+    background-color:#1ed760;
+    width: 8em;
+    height: 3em;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-family: spotifybold;
+}
+
+.lasthr{
+    margin: 1.5rem 0;
+    width: 100%;
+}
+.google img{
+    height: 20px;
+    width: auto;
+}
+.facebook{
+    color: rgb(248, 248, 248);
+    background-color: rgb(59, 89, 152);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 50px;
+    border-radius: 500px;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+.Svg-ytk21e-0 {
+    color: white;
+}
+
+.apple{
+    color: rgb(248, 248, 248);
+    background-color: rgb(0, 0, 0);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 50px;
+    border-radius: 500px;
+    cursor: pointer;
+    margin: 1rem 0px;
+}
+.apple svg{
+    height: 22px;
+    width: 22px;
+}
+.google{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 50px;
+    border-radius: 500px;
+    cursor: pointer;
+    margin-bottom: 1rem;
+    border: 1px solid grey;
+}
+.buttons{
+    text-align: center;
+}
+.account{
+    text-align: center;
+}
+.div{
+    color: rgb(95, 95, 95);
+    background-color: rgb(255, 255, 255);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 50px;
+    border-radius: 500px;
+    cursor: pointer;
+    margin-top: 1rem;
+    border: 1px solid grey;
+}
